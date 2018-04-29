@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zhuolong.threeindicatorprogressbar.ui.ThreeIndicatorProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="10"
+        android:progress="2"
+        app:barRoundedRadius="10dp"
+        app:isHeadDrawable="true"
+        app:isTailDrawable="true"
+        app:progressBarHeight="30dp"
+        app:progressTextSize="20sp"
+        app:headBarColor="@android:color/holo_green_dark"
+        app:middleBarColor="@android:color/darker_gray"
+        app:tailBarColor="@android:color/holo_red_dark"
+        app:tailProgress="3" />
+
+</android.support.v7.widget.LinearLayoutCompat>

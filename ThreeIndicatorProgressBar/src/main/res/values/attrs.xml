@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--三端指示进度条-->
+    <declare-styleable name="ThreeIndicatorProgressBar">
+        <attr name="barRoundedRadius" format="dimension"/>
+        <attr name="headBarColor" format="color" />
+        <attr name="middleBarColor" format="color" />
+        <attr name="tailBarColor" format="color" />
+        <attr name="isIndicatorPercentage" format="boolean" />
+        <attr name="isHeadDrawable" format="boolean"/>
+        <attr name="isTailDrawable" format="boolean"/>
+        <attr name="tailProgress" format="integer" />
+        <attr name="progressBarHeight" format="dimension" />
+        <attr name="headCircleColor" format="color" />
+        <attr name="tailCircleColor" format="color" />
+        <attr name="progressTextSize" format="dimension" />
+        <attr name="headBarDrawable" format="integer" />
+        <attr name="tailBarDrawable" format="integer" />
+    </declare-styleable>
+</resources>
